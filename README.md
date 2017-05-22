@@ -1,10 +1,10 @@
-About Me:
+# About Me:
   Undergraduate at Northeastern University - recently graduated and soon moving back to my home town of San Francisco, CA.
 
-Purpose of this Repo:
+# Purpose of this Repo:
   Finishing my incomplete for web development course
 
-Links:
+# Links:
 Root to hosted Heroku environment:
 Link to project:
 Link to your assignment:
