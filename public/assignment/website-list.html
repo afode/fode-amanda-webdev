@@ -6,71 +6,77 @@
 
     <title>Website-list</title>
 
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="css/style.css" rel="stylesheet"/>
 
 </head>
+
+
 <body>
 
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">Websites</a>
-            <p class="navbar-text pull-right">
-                <a href="#" class="navbar-link">
-                    <span class="glyphicon glyphicon-plus"></span>
-                </a>
-            </p>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="topnav">
+            <a href="profile.html">
+                <span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a href="page-list.html">Websites</a>
+            <div class="align-right">
+                <a class="active" href="website-new.html">
+                    <span class="glyphicon glyphicon-plus"></span></a>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
 
-<div class="container">
-    <h2>Here are your list of websites</h2>
-
-    <table class="table table-striped">
-        <tbody>
+    <!-- Developers website list with cogs for editing pages -->
+    <div class="container">
+        <table class="table table-striped">
+            <tbody>
             <tr>
                 <td>Address Book App</td>
                 <td>
-                    <button ng-click="model.createMessage(model.message)"
-                            class="btn btn-primary pull-right">
-                        <span class="glyphicon glyphicon-cog"></span>
-                    </button>
+                    <a href="website-edit.html">
+                        <span class="glyphicon glyphicon-cog align-right"></span>
+                    </a>
                 </td>
             </tr>
             <tr>
                 <td>Blogger</td>
                 <td>
-                    <button ng-click="model.createMessage(model.message)"
-                            class="btn btn-primary pull-right">
-                        <span class="glyphicon glyphicon-cog"></span>
-                    </button>
+                    <a href="website-edit.html">
+                        <span class="glyphicon glyphicon-cog align-right"></span>
+                    </a>
                 </td>
             </tr>
             <tr>
                 <td>Blogger App</td>
                 <td>
-                    <button ng-click="model.createMessage(model.message)"
-                            class="btn btn-primary pull-right">
-                        <span class="glyphicon glyphicon-cog"></span>
-                    </button>
+                    <a href="website-edit.html">
+                        <span class="glyphicon glyphicon-cog align-right"></span>
+                    </a>
                 </td>
             </tr>
             <tr>
                 <td>Script Testing App</td>
                 <td>
-                    <button ng-click="model.createMessage(model.message)"
-                            class="btn btn-primary pull-right">
-                        <span class="glyphicon glyphicon-cog"></span>
-                    </button>
+                    <a href="website-edit.html">
+                        <span class="glyphicon glyphicon-cog align-right"></span>
+                    </a>
                 </td>
             </tr>
-        </tbody>
-    </table>
+            </tbody>
+        </table>
+    </div>
 
-</div>
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+        <div class="topnav">
+            <div class="align-right">
+                <a href="profile.html">
+                    <span class="glyphicon glyphicon-user"></span>
+                </a>
+            </div>
+        </div>
+    </nav>
 
 </body>
+
 </html>

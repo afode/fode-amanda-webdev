@@ -3,5 +3,50 @@ input.form-control {
 }
 
 body {
-    padding-top: 36px;
+    padding-top: 80px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgba(126, 129, 128, 0.69);
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #111;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.align-right {
+    float: right;
+    font-size: large;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ce07cb;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+#leftSide {
+    display: inline;
+    float: left;
+    width: 50%
+}
+
+#rightSide {
+    display: inline;
+    float: right;
+    width: 50%
 }

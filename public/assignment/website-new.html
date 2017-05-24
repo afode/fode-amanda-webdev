@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="TestApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Website-list</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+</head>
+
+
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="topnav" id="myTopnav">
+            <a href="profile.html">
+                <span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a href="page-list.html">Websites</a>
+            <div class="align-right">
+                <a class="active" href="website-new.html">
+                    <span class="glyphicon glyphicon-plus"></span></a>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container-fluid sidebar" id="leftSide">
+        <table class="table table-striped">
+            <tbody>
+                <tr>
+                    <td>Address Book App</td>
+                    <td>
+                        <a href="website-edit.html">
+                            <span class="glyphicon glyphicon-cog align-right"></span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Blogger</td>
+                    <td>
+                        <a href="website-edit.html">
+                            <span class="glyphicon glyphicon-cog align-right"></span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Blogger App</td>
+                    <td>
+                        <a href="website-edit.html">
+                            <span class="glyphicon glyphicon-cog align-right"></span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Script Testing App</td>
+                    <td>
+                        <a href="website-edit.html">
+                            <span class="glyphicon glyphicon-cog align-right"></span>
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!--New Website Form-->
+    <div class="container" id="rightSide">
+        <form>
+            <div class="form-group">
+                <label>Name</label>
+                <input class="form-control" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <label>Description</label>
+                <textarea class="form-control" placeholder="Description"></textarea>
+            </div>
+        </form>
+    </div>
+
+    <!--Bottom Navigation Bar-->
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+        <div class="topnav">
+            <div class="align-right">
+                <a href="profile.html">
+                    <span class="glyphicon glyphicon-user"></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+</body>
+
+</html>
