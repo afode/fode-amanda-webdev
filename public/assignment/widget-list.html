@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Website-list</title>
+    <title>Website Builder</title>
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="css/style.css" rel="stylesheet"/>
@@ -14,75 +14,94 @@
 
 <body>
 
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="navbars">
-            <a href="profile.html">
-                <span class="glyphicon glyphicon-chevron-left"></span></a>
-            <a href="page-list.html">Widgets</a>
-            <div class="align-right">
-                <a class="active" href="website-new.html">
-                    <span class="glyphicon glyphicon-plus"></span></a>
+    <nav class="navbar navbar-default navbar-fixed-top navbars">
+        <div class="row container-fluid">
+            <div class="col-sm-12 hidden-xs">
+                <div class="navbar-text pull-left">
+                    <a href="page-list.html">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                </div>
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        Widgets
+                    </a>
+                </div>
+                <div class="navbar-text pull-right">
+                    <a href="widget-choose.html">
+                        <span class="glyphicon glyphicon-plus"></span>
+                    </a>
+                </div>
             </div>
         </div>
     </nav>
 
-
-    <!-- Developers website list with cogs for editing pages -->
-    <div class="container">
-        <table class="table table-bordered table-striped">
-            <tbody>
-            <tr>
-                <td>Address Book App</td>
-                <td>
-                    <a href="website-edit.html">
-                        <span class="glyphicon glyphicon-align-justify align-right"></span>
+    <div class="row container-fluid">
+        <div class="col-sm-12">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <h1>Snow Leopard</h1>
+                    <a href="widget-heading.html">
+                        <span class="glyphicon glyphicon-cog pull-right"></span>
                     </a>
                     <a href="website-edit.html">
-                        <span class="glyphicon glyphicon-cog align-right"></span>
+                        <span class="glyphicon glyphicon-align-justify pull-right"
+                              style="margin-right: 5px;"></span>
                     </a>
-                </td>
-            </tr>
-            <tr>
-                <td>Blogger</td>
-                <td>
-                    <a href="website-edit.html">
-                        <span class="glyphicon glyphicon-align-justify align-right"></span>
-                    </a>
-                    <a href="website-edit.html">
-                        <span class="glyphicon glyphicon-cog align-right"></span>
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>Blogger App</td>
-                <td>
-                    <a href="website-edit.html">
-                        <span class="glyphicon glyphicon-align-justify align-right"></span>
+                </li>
+                <li class="list-group-item">
+                    <img width="560" height="315"
+                         src="Assets/snowLeopard.jpg">
+                    <a href="widget-image.html">
+                        <span class="glyphicon glyphicon-cog pull-right"></span>
                     </a>
                     <a href="website-edit.html">
-                        <span class="glyphicon glyphicon-cog align-right"></span>
+                        <span class="glyphicon glyphicon-align-justify pull-right"
+                              style="margin-right: 5px;"></span>
                     </a>
-                </td>
-            </tr>
-            <tr>
-                <td>Script Testing App</td>
-                <td>
+                </li>
+                <li class="list-group-item">
+                    <iframe
+                        width="560" height="315"
+                        src="https://www.youtube.com/embed/_ZdsmLgCVdU"
+                        frameborder="0" allowfullscreen>
+                    </iframe>
+                    <a href="widget-youtube.html">
+                        <span class="glyphicon glyphicon-cog pull-right"></span>
+                    </a>
                     <a href="website-edit.html">
-                        <span class="glyphicon glyphicon-align-justify align-right"></span>
+                        <span class="glyphicon glyphicon-align-justify pull-right"
+                              style="margin-right: 5px;"></span>
+                    </a>
+                </li>
+                <li class="list-group-item">Script Testing App
+                    <a href="website-edit.html">
+                        <span class="glyphicon glyphicon-cog pull-right"></span>
                     </a>
                     <a href="website-edit.html">
-                        <span class="glyphicon glyphicon-cog align-right"></span>
+                        <span class="glyphicon glyphicon-align-justify pull-right"
+                              style="margin-right: 5px;">
+                        </span>
                     </a>
-                </td>
-            </tr>
-            </tbody>
-        </table>
+                </li>
+            </ul>
+        </div>
     </div>
 
-    <nav class="navbar navbar-default navbar-fixed-bottom">
-        <div class="navbars">
-            <div class="container">
-                <div class="align-right">
+    <nav class="navbar navbar-default navbar-fixed-bottom navbars">
+        <div class="row container-fluid">
+            <div class="col-sm-12 hidden-xs">
+                <div class="navbar-text pull-left">
+                    <a href="#">
+                        <span class="glyphicon glyphicon-play"></span>
+                    </a>
+                </div>
+                <div class="navbar-text pull-left">
+                    <a href="#">
+                        <span class="glyphicon glyphicon-eye-open"></span>
+                    </a>
+                </div>
+                <div class="navbar-text pull-right">
                     <a href="profile.html">
                         <span class="glyphicon glyphicon-user"></span>
                     </a>
