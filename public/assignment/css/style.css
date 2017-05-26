@@ -6,47 +6,59 @@ body {
     padding-top: 80px;
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: rgba(126, 129, 128, 0.69);
-    overflow: hidden;
-}
+/*!* Add a black background color to the top navigation *!*/
+/*.navbars {*/
+    /*background-color: rgba(126, 129, 128, 0.69);*/
+    /*overflow: hidden;*/
+/*}*/
 
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    display: block;
-    color: #111;
+/*!* Style the links inside the navigation bar *!*/
+/*.navbars a {*/
+    /*float: left;*/
+    /*display: block;*/
+    /*color: #111;*/
+    /*text-align: center;*/
+    /*padding: 14px 16px;*/
+    /*text-decoration: none;*/
+    /*font-size: 22px;*/
+/*}*/
+
+/*!* Change the color of links on hover *!*/
+/*.navbars a:hover {*/
+    /*background-color: #ce07cb;*/
+    /*color: white;*/
+/*}*/
+
+/*!* Hide the link that should open and close the topnav on small screens *!*/
+/*.navbars .icon {*/
+    /*display: none;*/
+/*}*/
+
+.navbars {
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 22px;
+    width: 100%;
+    background-color: #d2d7d5;
+    border-color: #ce07cb;
+    font-size: 20px;
+    line-height: 0.5;
 }
 
-.align-right {
-    float: right;
-    font-size: large;
+.navbars a:hover {
+    color: #ce07cb;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #ce07cb;
-    color: white;
+.container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-    display: none;
-}
-
-#leftSide {
-    display: inline;
-    float: left;
-    width: 50%
-}
-
-#rightSide {
-    display: inline;
-    float: right;
-    width: 50%
+.Website-sidebar {
+    overflow-y: scroll;
+    top: 0px;
+    bottom: 0px;
+    position: absolute;
+    left: 0px;
+    margin-top: 50px;
+    padding-top: 15px;
+    margin-bottom: 50px;
 }
