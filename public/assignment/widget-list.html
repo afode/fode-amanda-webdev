@@ -2,9 +2,9 @@
 <html lang="en" ng-app="TestApp">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
 
-    <title>Website Builder</title>
+    <title>Widget-list</title>
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="css/style.css" rel="stylesheet"/>
@@ -16,13 +16,13 @@
 
     <nav class="navbar navbar-default navbar-fixed-top navbars">
         <div class="row container-fluid">
-            <div class="col-sm-12 hidden-xs">
+            <div class="col-xs-12">
                 <div class="navbar-text pull-left">
                     <a href="page-list.html">
                         <span class="glyphicon glyphicon-chevron-left"></span>
                     </a>
                 </div>
-                <div class="navbar-header">
+                <div class="navbar-header hidden-xs">
                     <a class="navbar-brand" href="#">
                         Widgets
                     </a>
@@ -40,49 +40,38 @@
         <div class="col-sm-12">
             <ul class="list-group">
                 <li class="list-group-item">
-                    <h1>Snow Leopard</h1>
+                    <p class="heading-style">Snow Leopard</p>
                     <a href="widget-heading.html">
                         <span class="glyphicon glyphicon-cog pull-right"></span>
                     </a>
-                    <a href="website-edit.html">
-                        <span class="glyphicon glyphicon-align-justify pull-right"
-                              style="margin-right: 5px;"></span>
+                    <a href="#">
+                        <span class="glyphicon glyphicon-align-justify pull-right margin-right-space"></span>
                     </a>
                 </li>
                 <li class="list-group-item">
-                    <img width="560" height="315"
+                    <img width="60%" height="60%"
                          src="Assets/snowLeopard.jpg">
                     <a href="widget-image.html">
                         <span class="glyphicon glyphicon-cog pull-right"></span>
                     </a>
-                    <a href="website-edit.html">
-                        <span class="glyphicon glyphicon-align-justify pull-right"
-                              style="margin-right: 5px;"></span>
+                    <a href="#">
+                        <span class="glyphicon glyphicon-align-justify pull-right margin-right-space"></span>
                     </a>
                 </li>
                 <li class="list-group-item">
-                    <iframe
-                        width="560" height="315"
-                        src="https://www.youtube.com/embed/_ZdsmLgCVdU"
-                        frameborder="0" allowfullscreen>
-                    </iframe>
-                    <a href="widget-youtube.html">
-                        <span class="glyphicon glyphicon-cog pull-right"></span>
-                    </a>
-                    <a href="website-edit.html">
-                        <span class="glyphicon glyphicon-align-justify pull-right"
-                              style="margin-right: 5px;"></span>
-                    </a>
-                </li>
-                <li class="list-group-item">Script Testing App
-                    <a href="website-edit.html">
-                        <span class="glyphicon glyphicon-cog pull-right"></span>
-                    </a>
-                    <a href="website-edit.html">
-                        <span class="glyphicon glyphicon-align-justify pull-right"
-                              style="margin-right: 5px;">
-                        </span>
-                    </a>
+                    <div class="video-container">
+                        <iframe
+                            width="560" height="315"
+                            src="https://www.youtube.com/embed/_ZdsmLgCVdU"
+                            frameborder="0" allowfullscreen>
+                        </iframe>
+                        <a href="widget-youtube.html">
+                            <span class="glyphicon glyphicon-cog pull-right"></span>
+                        </a>
+                        <a href="#">
+                            <span class="glyphicon glyphicon-align-justify pull-right margin-right-space"></span>
+                        </a>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -90,7 +79,7 @@
 
     <nav class="navbar navbar-default navbar-fixed-bottom navbars">
         <div class="row container-fluid">
-            <div class="col-sm-12 hidden-xs">
+            <div class="col-sm-12">
                 <div class="navbar-text pull-left">
                     <a href="#">
                         <span class="glyphicon glyphicon-play"></span>

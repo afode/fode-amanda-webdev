@@ -6,33 +6,10 @@ body {
     padding-top: 80px;
 }
 
-/*!* Add a black background color to the top navigation *!*/
-/*.navbars {*/
-    /*background-color: rgba(126, 129, 128, 0.69);*/
-    /*overflow: hidden;*/
-/*}*/
-
-/*!* Style the links inside the navigation bar *!*/
-/*.navbars a {*/
-    /*float: left;*/
-    /*display: block;*/
-    /*color: #111;*/
-    /*text-align: center;*/
-    /*padding: 14px 16px;*/
-    /*text-decoration: none;*/
-    /*font-size: 22px;*/
-/*}*/
-
-/*!* Change the color of links on hover *!*/
-/*.navbars a:hover {*/
-    /*background-color: #ce07cb;*/
-    /*color: white;*/
-/*}*/
-
-/*!* Hide the link that should open and close the topnav on small screens *!*/
-/*.navbars .icon {*/
-    /*display: none;*/
-/*}*/
+.container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 .navbars {
     text-align: center;
@@ -47,9 +24,13 @@ body {
     color: #ce07cb;
 }
 
-.container-fluid {
-    padding-left: 30px;
-    padding-right: 30px;
+.margin-right-space {
+    margin-right: 5px;
+}
+
+.heading-style {
+    display:inline;
+    font-size: 40px;
 }
 
 .Website-sidebar {
@@ -61,4 +42,21 @@ body {
     margin-top: 50px;
     padding-top: 15px;
     margin-bottom: 50px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 58.25%;
+    padding-top: 0px; height: 0;
+    margin-bottom: -23%;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 60%;
 }

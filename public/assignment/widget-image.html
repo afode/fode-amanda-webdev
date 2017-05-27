@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
 
-    <title>Website Builder</title>
+    <title>Widget-image</title>
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="css/style.css" rel="stylesheet"/>
@@ -15,8 +15,8 @@
 <body>
     <nav class="navbar navbar-default navbar-fixed-top navbars">
         <div class="row container-fluid">
-            <div class="col-sm-12">
-                <div class="navbar-text pull-left hidden-xs">
+            <div class="col-xs-12">
+                <div class="navbar-text pull-left">
                     <a href="widget-list.html">
                         <span class="glyphicon glyphicon-chevron-left"></span>
                     </a>
@@ -57,11 +57,15 @@
                 </div>
                 <div class="form-group">
                     <label>URL</label>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" placeholder="https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/11/26/13/herd-elephants-getty.jpg">
                 </div>
                 <div class="form-group">
                     <label>Width</label>
                     <input type="text" class="form-control" placeholder="100%">
+                </div>
+                <div class="form-group">
+                    <label>Upload</label>
+                    <input type="file" class="form-control"/>
                 </div>
                 <a class="btn btn-primary btn-block"
                    href="#">Upload Image
