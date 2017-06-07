@@ -1,14 +1,9 @@
 input.form-control {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 body {
-    padding-top: 80px;
-}
-
-.container-fluid {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-top: 50px;
 }
 
 .navbars {

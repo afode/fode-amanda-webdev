@@ -1,41 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="WebAppMaker">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
-    <title>Assignment Home Page</title>
+    <title>WebApp Maker</title>
 
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- Bootstrap core CSS -->
+    <link href="vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="vendors/bootstrap/justified-nav.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.js"></script>
+
+    <script src="app.js"></script>
+    <script src="config.js"></script>
 </head>
 
 <body>
+
+<div class="container">
+
+    <!-- The justified navigation menu is meant for single line per list item.
+         Multiple lines will require custom code not provided by Bootstrap. -->
+    <div class="masthead">
+        <h3 class="text-muted">Amanda Fode's WebApp Maker</h3>
+        <nav>
+            <ul class="nav nav-justified">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#/login">Login</a></li>
+                <li><a href="#/register">Register</a></li>
+                <li><a href="#/user/:uid">Profile</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Jumbotron -->
     <div class="jumbotron">
-        <div class="container-fluid">
-            <h1>Assignment Home Page</h1>
-        </div>
+        <h1>WebApp Maker</h1>
+        <p class="lead">Enjoy!</p>
+        <p><a class="btn btn-lg btn-success" href="#" role="button">Get started today</a></p>
     </div>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-3 col-md-2 sidebar">
-                <ul class="nav nav-sidebar">
-                    <li>
-                        <a href="../index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="login.html">Login</a>
-                    </li>
-                    <li>
-                        <a href="register.html">Register</a>
-                    </li>
-                    <li>
-                        <a href="profile.html">Profile</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    <div ng-view></div>
+
+    <!-- Site footer -->
+    <footer class="footer">
+        <p>&copy; Fode WebApp Maker</p>
+    </footer>
+
+</div> <!-- /container -->
+
+
+
 </body>
-
 </html>

@@ -1,0 +1,75 @@
+<nav class="navbar navbar-default navbar-fixed-top navbars">
+    <div class="row container-fluid">
+        <div class="col-xs-12">
+            <div class="navbar-text pull-left">
+                <a href="#/user/:uid/website/:wid/page/:pid/widget">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+            </div>
+            <div class="navbar-header hidden-xs">
+                <a class="navbar-brand" href="#">
+                    Image Edit
+                </a>
+            </div>
+            <div class="navbar-text pull-right">
+                <a href="#/user/:uid/website/:wid/page/:pid/widget">
+                    <span class="glyphicon glyphicon-ok"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="row container-fluid">
+    <div class="col-sm-4 hidden-xs">
+        <div class="list-group">
+            <div class="col-sm-12">
+                <a href="widget-heading.view.client.html" class="list-group-item list-group-item-action">Header</a>
+                <a href="widget-image.view.client.html" class="list-group-item list-group-item-action">Image</a>
+                <a href="widget-youtube.view.client.html" class="list-group-item list-group-item-action">YouTube</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-8 pull-right">
+        <form>
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Text</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>URL</label>
+                <input type="text" class="form-control" placeholder="https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/11/26/13/herd-elephants-getty.jpg">
+            </div>
+            <div class="form-group">
+                <label>Width</label>
+                <input type="text" class="form-control" placeholder="100%">
+            </div>
+            <div class="form-group">
+                <label>Upload</label>
+                <input type="file" class="form-control"/>
+            </div>
+            <a class="btn btn-primary btn-block"
+               href="#">Upload Image
+            </a>
+            <a class="btn btn-danger btn-block"
+               href="#/user/:uid/website/:wid/page/:pid/widget">Delete
+            </a>
+        </form>
+    </div>
+</div>
+
+<nav class="navbar navbar-default navbar-fixed-bottom navbars">
+    <div class="container-fluid">
+        <div class="navbar-text row navbars">
+            <div class="col-xs-12 navbars">
+                <a href="#/user/:uid" class="pull-right">
+                    <span class="glyphicon glyphicon-user"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>

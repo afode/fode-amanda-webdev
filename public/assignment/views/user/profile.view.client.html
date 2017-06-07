@@ -1,0 +1,55 @@
+<nav class="navbar navbar-default navbar-fixed-top navbars">
+    <div class="row container-fluid">
+        <div class="col-xs-12">
+            <div class="navbar-header hidden-xs">
+                <a class="navbar-brand" href="../../index.html">
+                    Profile
+                </a>
+            </div>
+            <div class="navbar-text pull-right" >
+                <a href="#/user/:uid">
+                    <span class="glyphicon glyphicon-ok"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <h2>Profile</h2>
+    <form>
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" class="form-control" id="username" placeholder="Username">
+        </div>
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="alice@wonderland.com">
+        </div>
+        <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" class="form-control" id="first-name" placeholder="Alice">
+        </div>
+        <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" class="form-control" id="last-name" placeholder="Wonderland">
+        </div>
+    </form>
+
+    <a class="btn btn-primary btn-block"
+       href="#/user/:uid/website">Websites</a>
+    <a class="btn btn-danger btn-block"
+       href="#/login">Logout</a>
+</div>
+
+<nav class="navbar navbar-default navbar-fixed-bottom navbars">
+    <div class="container-fluid">
+        <div class="navbar-text row navbars">
+            <div class="col-xs-12">
+                <a href="#/user/:uid" class="pull-right">
+                    <span class="glyphicon glyphicon-user"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
